@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+.next/
+out/
+
+# Environment & secrets
+.env
+.env.local
+.env.production
+
+# Databases
+*.db
+*.sqlite3
+
+# ChromaDB vector store
+backend/data/chroma/
+
+# Uploaded & processed files (regenerated at runtime)
+backend/data/audio/
+backend/data/documents/
+backend/data/processed/
+
+# Keep sample seed data
+!backend/data/sample/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+nul
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Whisper / HuggingFace model cache
+*.bin
+*.pt
+*.onnx
+
+# Logs
+*.log
+.claude/
